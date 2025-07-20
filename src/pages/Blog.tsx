@@ -19,7 +19,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-15",
       readTime: "8 min read",
-      image: "/api/placeholder/400/250",
+      image: "images/13.png",
       featured: true
     },
     {
@@ -30,7 +30,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan", 
       date: "2024-01-12",
       readTime: "10 min read",
-      image: "/api/placeholder/400/250",
+     image: "images/13.png",
       featured: true
     }
   ];
@@ -44,7 +44,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-10",
       readTime: "6 min read",
-      image: "/api/placeholder/300/200"
+     image: "images/13.png",
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-08",
       readTime: "5 min read",
-      image: "/api/placeholder/300/200"
+      image: "images/13.png",
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-05",
       readTime: "7 min read",
-      image: "/api/placeholder/300/200"
+       image: "images/13.png",
     },
     {
       id: 6,
@@ -74,7 +74,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-03",
       readTime: "9 min read",
-      image: "/api/placeholder/300/200"
+   image: "images/13.png",
     },
     {
       id: 7,
@@ -84,7 +84,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2024-01-01",
       readTime: "6 min read",
-      image: "/api/placeholder/300/200"
+    image: "images/13.png",
     },
     {
       id: 8,
@@ -94,7 +94,7 @@ const Blog = () => {
       author: "Molana Sufiyan Khan",
       date: "2023-12-28",
       readTime: "8 min read",
-      image: "/api/placeholder/300/200"
+   image: "images/13.png",
     }
   ];
 
@@ -138,7 +138,7 @@ const Blog = () => {
       <section className="bg-gradient-to-r from-islamic-green to-islamic-light-green text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6">
-            Islamic Astrology Blog
+            5 Min Read 
           </h1>
           <p className="text-xl md:text-2xl font-inter opacity-90 max-w-3xl mx-auto mb-8">
             Expert Articles on Vashikaran, Love Marriage, Black Magic Removal & Islamic Spirituality
@@ -157,21 +157,21 @@ const Blog = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <Button 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-islamic-green"
+              className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
               onClick={() => scrollToSection('love-marriage-blogs')}
             >
               Love Marriage Blogs
             </Button>
             <Button 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-islamic-green"
+              className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
               onClick={() => scrollToSection('vashikaran-blogs')}
             >
               Vashikaran Blogs
             </Button>
             <Button 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-islamic-green"
+              className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
               onClick={() => scrollToSection('black-magic-blogs')}
             >
               Black Magic Blogs

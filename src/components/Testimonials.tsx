@@ -10,7 +10,7 @@ const Testimonials = () => {
     {
       name: "Sabina Begum - Dubai", 
       text: "My husband's business was losing money, which added to my worry. I sought the advice of astrologer Muhammad Ali, and his advised treatments helped and gradually changed my situation.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b5b17ba7?w=80&h=80&fit=crop&crop=face"
+      image: "images/13.png"
     },
     {
       name: "Ankush Kaur - Canada",

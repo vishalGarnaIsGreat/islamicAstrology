@@ -53,7 +53,7 @@ const Contact = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-islamic-green"
+              className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
               onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-5 h-5" />
