@@ -6,9 +6,9 @@ const resources = {
     translation: {
       header: {
         title: "Famous Muslim Astrologer",
-        name: "Ahmed Ali Khan",
+        name: "Molana Ahmed Ali Khan",
         tagline: "YOU CAN TRUST ME ONLY ONE TIME",
-        banner: "Are You Experiencing Difficulties In Your Life? Feel Free To Consult Muslim Astrologer Muhammad Ali.",
+        banner: "Are You Experiencing Difficulties In Your Life? Feel Free To Consult Muslim Astrologer Molana Ahmed Ali Khan",
         callChange: "One Call Can Change Your Life",
         phone: "+91-8290657409",
         satisfied: "100% SATISFIED CLIENTS",

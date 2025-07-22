@@ -67,7 +67,7 @@ const Footer = () => {
                 <img src={islamicLogo} alt="Islamic Astrologer" className="w-12 h-12" />
                 <div>
                   <p className="text-islamic-green font-bold">Famous Muslim Astrologer</p>
-                  <h4 className="text-islamic-green font-bold text-lg">Ahmed Ali Khan</h4>
+                  <h4 className="text-islamic-green font-bold text-lg">Molana Ahmed Ali Khan</h4>
                   <p className="text-islamic-green text-sm">YOU CAN TRUST ME ONLY ONE TIME</p>
                 </div>
               </div>

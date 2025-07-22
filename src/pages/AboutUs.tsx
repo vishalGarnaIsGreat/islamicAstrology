@@ -11,7 +11,7 @@ const AboutUs = () => {
       <section className="bg-gradient-to-r from-islamic-green to-islamic-light-green text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6">
-            About Ahmed Ali Khan
+            About Molana Ahmed Ali Khan
           </h1>
           <p className="text-xl md:text-2xl font-inter opacity-90 max-w-3xl mx-auto">
             World Renowned Islamic Astrologer & Spiritual Healer with 25+ Years Experience
@@ -26,7 +26,7 @@ const AboutUs = () => {
             <div>
               <img 
                 src="/src/assets/astrologer-portrait.jpg" 
-                alt="Ahmed Ali Khan" 
+                alt="Molana Ahmed Ali Khan" 
                 className="rounded-lg shadow-elegant w-full"
               />
             </div>
