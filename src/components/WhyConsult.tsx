@@ -32,7 +32,7 @@ const WhyConsult = () => {
           <div className="lg:col-span-2 space-y-8">
             <div className="bg-gradient-to-br from-islamic-green to-islamic-light-green p-8 rounded-lg text-white">
               <h3 className="text-2xl font-bold mb-4 text-islamic-gold">World Famous Astrologer</h3>
-              <h4 className="text-3xl font-bold mb-6">MAULANA MUHAMMAD ALI</h4>
+              <h4 className="text-3xl font-bold mb-6">MAULANA Ahmed Ali Khan</h4>
               <p className="text-lg mb-6">
                 DON'T WASTE YOUR TIME & MONEY GET PERMANENT SOLUTION
               </p>

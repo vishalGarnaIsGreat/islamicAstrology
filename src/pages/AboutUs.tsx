@@ -11,7 +11,7 @@ const AboutUs = () => {
       <section className="bg-gradient-to-r from-islamic-green to-islamic-light-green text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-playfair font-bold mb-6">
-            About Molana Sufiyan Khan
+            About Ahmed Ali Khan
           </h1>
           <p className="text-xl md:text-2xl font-inter opacity-90 max-w-3xl mx-auto">
             World Renowned Islamic Astrologer & Spiritual Healer with 25+ Years Experience
@@ -26,7 +26,7 @@ const AboutUs = () => {
             <div>
               <img 
                 src="/src/assets/astrologer-portrait.jpg" 
-                alt="Molana Sufiyan Khan" 
+                alt="Ahmed Ali Khan" 
                 className="rounded-lg shadow-elegant w-full"
               />
             </div>
@@ -50,7 +50,7 @@ const AboutUs = () => {
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-islamic-green">50K+</div>
+                  <div className="text-3xl font-bold text-islamic-green">1000+</div>
                   <div className="text-sm text-muted-foreground">Happy Clients</div>
                 </div>
                 <div className="text-center">
@@ -93,11 +93,7 @@ const AboutUs = () => {
                   title: "Career & Business",
                   description: "Astrological guidance for career growth, business success, and financial prosperity."
                 },
-                {
-                  icon: Calendar,
-                  title: "Horoscope Reading",
-                  description: "Detailed birth chart analysis and future predictions based on Islamic astrology principles."
-                }
+
               ].map((service, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-elegant border border-border">
                   <service.icon className="w-12 h-12 text-islamic-green mb-4" />

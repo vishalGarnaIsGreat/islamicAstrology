@@ -6,7 +6,7 @@ const resources = {
     translation: {
       header: {
         title: "Famous Muslim Astrologer",
-        name: "MUHAMMAD ALI",
+        name: "Ahmed Ali Khan",
         tagline: "YOU CAN TRUST ME ONLY ONE TIME",
         banner: "Are You Experiencing Difficulties In Your Life? Feel Free To Consult Muslim Astrologer Muhammad Ali.",
         callChange: "One Call Can Change Your Life",
@@ -32,7 +32,7 @@ const resources = {
         features: [
           "100% Safe & Halal Methods",
           "24/7 Available Worldwide", 
-          "30+ Years Experience",
+          "25+ Years Experience",
           "1000+ Satisfied Clients"
         ]
       },
@@ -148,7 +148,7 @@ const resources = {
           },
           {
             number: "02", 
-            title: "30+ Years Experience",
+            title: "25+ Years Experience",
             description: "Over three decades of successful practice in Islamic astrology"
           },
           {

@@ -29,7 +29,7 @@ const OurServices = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
+              className="border-white text-islamic-greens hover:bg-white hover:text-islamic-green"
               onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-5 h-5" />
@@ -70,12 +70,6 @@ const OurServices = () => {
                 title: "Husband Wife Problem",
                 description: "Solve marital disputes, restore love, and bring harmony in your married life through spiritual guidance.",
                 features: ["Relationship healing", "Love restoration", "Communication improvement", "Family harmony"]
-              },
-              {
-                icon: Star,
-                title: "Horoscope Reading",
-                description: "Detailed birth chart analysis and future predictions based on Islamic astrology principles.",
-                features: ["Birth chart analysis", "Future predictions", "Remedial measures", "Gemstone consultation"]
               },
               {
                 icon: Calendar,
@@ -167,10 +161,6 @@ const OurServices = () => {
                 <p className="text-muted-foreground font-inter text-sm mb-3">
                   {service.description}
                 </p>
-                <div className="text-sm">
-                  <span className="font-semibold text-islamic-green">Duration: </span>
-                  <span className="text-muted-foreground">{service.duration}</span>
-                </div>
               </div>
             ))}
           </div>

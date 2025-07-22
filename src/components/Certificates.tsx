@@ -17,7 +17,7 @@ const Certificates = () => {
           <div className="bg-islamic-green text-white px-8 py-3 rounded-lg inline-block mb-8">
             <h3 className="text-2xl font-bold">WITH THE HELP OF ASTROLOGER</h3>
           </div>
-          <h4 className="text-3xl font-bold text-islamic-green mb-8">Muslim Astrologer Muhammad Ali</h4>
+          <h4 className="text-3xl font-bold text-islamic-green mb-8">Muslim Astrologer Ahmed Ali Khan</h4>
           
           <div className="flex gap-4 justify-center mb-8">
             <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3">

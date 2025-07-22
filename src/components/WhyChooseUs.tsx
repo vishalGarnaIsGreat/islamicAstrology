@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-islamic-green mb-6">Why Choose Us</h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            Astrologer Muhammad Ali Ji is helping people to meet with the peace by solving all kind of real-life based problems with the help of Muslim 
+            Astrologer Ahmed Ali Khan Ji is helping people to meet with the peace by solving all kind of real-life based problems with the help of Muslim 
             astrological remedies for a better life.
           </p>
         </div>

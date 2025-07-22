@@ -4,17 +4,17 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Sunil Singh Rana - USA",
-      text: "Few month back my girlfriend broke up with me and decided to move forward with some other guy. This affects me from inside but I took help from Astrologer Muhammad Ali and managed to bring her back into my life again thank you",
+      text: "Few month back my girlfriend broke up with me and decided to move forward with some other guy. This affects me from inside but I took help from Astrologer Ahmed Ali Khan and managed to bring her back into my life again thank you",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face"
     },
     {
       name: "Sabina Begum - Dubai", 
-      text: "My husband's business was losing money, which added to my worry. I sought the advice of astrologer Muhammad Ali, and his advised treatments helped and gradually changed my situation.",
+      text: "My husband's business was losing money, which added to my worry. I sought the advice of astrologer Ahmed Ali Khan, and his advised treatments helped and gradually changed my situation.",
       image: "images/13.png"
     },
     {
       name: "Ankush Kaur - Canada",
-      text: "Our parents were against my love marriage as we were from different castes and we tried hard to convince our parents but nothing worked. Then I seek help from Astrologer Muhammad Ali and it worked. Thank you",
+      text: "Our parents were against my love marriage as we were from different castes and we tried hard to convince our parents but nothing worked. Then I seek help from Astrologer Ahmed Ali Khan and it worked. Thank you",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face"
     }
   ];

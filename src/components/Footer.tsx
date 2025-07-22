@@ -30,14 +30,6 @@ const Footer = () => {
               purpose of using the astrology. His interest in astrology has made her to complete his 
               education in astrology and further took parts in the astrology seminars.
             </p>
-            <div className="space-y-2">
-              {aboutInfo.map((item, index) => (
-                <div key={index} className="flex items-center gap-2">
-                  <span className="text-islamic-gold">👆</span>
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Why Choose Us */}
@@ -57,7 +49,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-islamic-gold mb-6">Top Service</h3>
             <div className="space-y-2">
-              {whyChooseUs.map((item, index) => (
+              {aboutInfo.map((item, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <span className="text-islamic-gold">👆</span>
                   <span>{item}</span>
@@ -75,7 +67,7 @@ const Footer = () => {
                 <img src={islamicLogo} alt="Islamic Astrologer" className="w-12 h-12" />
                 <div>
                   <p className="text-islamic-green font-bold">Famous Muslim Astrologer</p>
-                  <h4 className="text-islamic-green font-bold text-lg">MUHAMMAD ALI</h4>
+                  <h4 className="text-islamic-green font-bold text-lg">Ahmed Ali Khan</h4>
                   <p className="text-islamic-green text-sm">YOU CAN TRUST ME ONLY ONE TIME</p>
                 </div>
               </div>
