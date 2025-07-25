@@ -31,11 +31,11 @@ const Header = () => {
   ];
 
   const handleWhatsAppClick = () => {
-    window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, "_blank");
+    window.open(`https://wa.me/918290657409?text=${encodeURIComponent('Hello, I need help with my problem')}`, "_blank");
   };
 
   const handleCallClick = () => {
-    window.location.href = "tel:+917340479570";
+    window.location.href = "tel:+918290657409";
   };
 
   return (
@@ -140,30 +140,26 @@ const Header = () => {
               })}
             </div>
           </nav>
+
+          {/* ✅ Action Buttons Under Navigation */}
+          <div className="flex justify-center gap-4 mt-6">
+            <Button
+              className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md shadow flex items-center"
+              onClick={handleWhatsAppClick}
+            >
+              <MessageCircle className="w-5 h-5 mr-2" />
+              Chat on WhatsApp
+            </Button>
+            <Button
+              className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md shadow flex items-center"
+              onClick={handleCallClick}
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              Call Now
+            </Button>
+          </div>
         </div>
       </header>
-
-      {/* 📞 Grouped Floating Contact Buttons (Fixed Bottom Right) */}
-{/* 📞 Grouped Floating Contact Buttons (Fixed Top Right inside Header) */}
-<div className="fixed top-28 right-6 z-50 flex flex-col gap-4 items-end">
-  <Button
-    size="icon"
-    className="bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
-    onClick={handleWhatsAppClick}
-    title="Chat on WhatsApp"
-  >
-    <MessageCircle className="w-6 h-6" />
-  </Button>
-  <Button
-    size="icon"
-    className="bg-red-500 hover:bg-red-600 text-white rounded-full w-14 h-14 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
-    onClick={handleCallClick}
-    title="Call +91-7340479570"
-  >
-    <Phone className="w-6 h-6" />
-  </Button>
-</div>
-
     </>
   );
 };

@@ -21,7 +21,7 @@ const OurServices = () => {
             <Button 
               size="lg" 
               className="bg-islamic-gold hover:bg-yellow-600 text-islamic-green font-bold"
-              onClick={() => window.location.href = 'tel:+917340479570'}
+              onClick={() => window.location.href = 'tel:+918290657409'}
             >
               <Phone className="mr-2 w-5 h-5" />
               Get Consultation
@@ -30,7 +30,7 @@ const OurServices = () => {
               size="lg" 
               variant="outline" 
               className="border-white text-islamic-greens hover:bg-white hover:text-islamic-green"
-              onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
+              onClick={() => window.open(`https://wa.me/918290657409?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-5 h-5" />
               Free Analysis
@@ -233,16 +233,16 @@ const OurServices = () => {
             <Button 
               size="lg" 
               className="bg-islamic-gold hover:bg-yellow-600 text-islamic-green font-bold text-lg px-8"
-              onClick={() => window.location.href = 'tel:+917340479570'}
+              onClick={() => window.location.href = 'tel:+918290657409'}
             >
               <Phone className="mr-2 w-6 h-6" />
-              Call Now: +91-7340479570
+              Call Now: +91-8290657409
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-white text-islamic-green hover:bg-white hover:text-islamic-green text-lg px-8"
-              onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
+              onClick={() => window.open(`https://wa.me/918290657409?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-6 h-6" />
               Get Free Consultation

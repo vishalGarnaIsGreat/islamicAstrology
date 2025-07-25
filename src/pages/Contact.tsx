@@ -45,19 +45,19 @@ const Contact = () => {
             <Button 
               size="lg" 
               className="bg-islamic-gold hover:bg-yellow-600 text-islamic-green font-bold"
-              onClick={() => window.location.href = 'tel:+917340479570'}
+              onClick={() => window.location.href = 'tel:+918290657409'}
             >
               <Phone className="mr-2 w-5 h-5" />
-              Call Now: +91-7340479570
+              Call Now: +91-8290657409
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-white text-islamic-green hover:bg-white hover:text-islamic-green"
-              onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
+              onClick={() => window.open(`https://wa.me/918290657409?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-5 h-5" />
-              WhatsApp: +91-7340479570
+              WhatsApp: +91-8290657409
             </Button>
           </div>
         </div>
@@ -71,13 +71,13 @@ const Contact = () => {
                 {
                   icon: Phone,
                   title: "Phone Numbers",
-                  details: ["+91-7340479570", "+91-7340479570"],
+                  details: ["+91-8290657409", "+91-8290657409"],
                   description: "Available 24/7 for emergency consultations"
                 },
                 {
                   icon: MessageCircle,
                   title: "WhatsApp",
-                  details: ["+91-7340479570"],
+                  details: ["+91-8290657409"],
                   description: "Quick responses and instant solutions"
                 },
               {
@@ -302,16 +302,16 @@ const Contact = () => {
             <Button 
               size="lg" 
               className="bg-islamic-gold hover:bg-yellow-600 text-islamic-green font-bold text-lg px-8"
-              onClick={() => window.location.href = 'tel:+917340479570'}
+              onClick={() => window.location.href = 'tel:+918290657409'}
             >
               <Phone className="mr-2 w-6 h-6" />
-              Call Now: +91-7340479570
+              Call Now: +91-8290657409
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-white text-white hover:bg-white hover:text-islamic-green text-lg px-8"
-              onClick={() => window.open(`https://wa.me/917340479570?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
+              onClick={() => window.open(`https://wa.me/918290657409?text=${encodeURIComponent('Hello, I need help with my problem')}`, '_blank')}
             >
               <MessageCircle className="mr-2 w-6 h-6" />
               WhatsApp Now
